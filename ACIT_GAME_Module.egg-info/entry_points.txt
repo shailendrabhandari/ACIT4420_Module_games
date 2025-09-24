@@ -1,0 +1,2 @@
+[console_scripts]
+games = main:main

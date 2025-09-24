@@ -1,0 +1,13 @@
+LICENSE
+README.md
+main.py
+setup.py
+ACIT_GAME_Module.egg-info/PKG-INFO
+ACIT_GAME_Module.egg-info/SOURCES.txt
+ACIT_GAME_Module.egg-info/dependency_links.txt
+ACIT_GAME_Module.egg-info/entry_points.txt
+ACIT_GAME_Module.egg-info/top_level.txt
+games/__init__.py
+games/guess_the_number.py
+games/rock_paper_scissors.py
+games/tic_tac_toe.py
