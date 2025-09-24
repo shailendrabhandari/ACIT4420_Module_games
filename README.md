@@ -14,6 +14,7 @@ ACIT4420_Module_games is a fun and educational Python game package developed as 
   - [Project structure](#project-structure)
     - [Key Files:](#key-files)
   - [License](#license)
+  - [Responsible:](#responsible)
 ## Features
 - Three classic games: Rock, Paper, Scissors; Guess the Number; and Tic-Tac-Toe.
 - Easy to install and run using a command-line interface.
@@ -56,13 +57,11 @@ A digital version of the classic two-player game. Play against the computer and 
 Here is a brief overview of the project's structure:
 ```
 ACIT_GAME_Module/
-│
 ├── games/
 │   ├── __init__.py
 │   ├── rock_paper_scissor.py
 │   ├── guess_the_number.py
 │   └── tic_tac_toe.py
-│
 ├── setup.py                   # Installation script
 ├── main.py
 └── README.md                  # Project documentation (this file)
@@ -75,3 +74,5 @@ ACIT_GAME_Module/
 - **`tic_tac_toe.py`**: Script for the Tic-Tac-Toe game.
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/shailendrabhandari/ACIT4420_Module_games/blob/main/LICENSE) file for details.
+## Responsible:
+@Shailendra Bhandari
