@@ -1,17 +1,17 @@
-# ACIT_GAME_Module
+# ACIT4420_Module_games
 
-ACIT_GAME_Module is a fun and educational Python game package developed as part of the ACIT4420 lecture series. The package includes three classic games: Rock, Paper, Scissors; Guess the Number; and Tic-Tac-Toe. This project demonstrates fundamental Python programming concepts, including module organization, package management, and user interaction through command-line interfaces.
-## Table of Contents
-- [ACIT\_GAME\_Module](#acit_game_module)
-  - [Table of Contents](#table-of-contents)
+ACIT4420_Module_games is a fun and educational Python game package developed as part of the ACIT4420-25H lecture series. The package includes three classic games: Rock, Paper, Scissors; Guess the Number; and Tic-Tac-Toe. This project demonstrates fundamental Python programming concepts, including module organization, package management, and user interaction through command-line interfaces.
+## Table of contents
+- [ACIT4420\_Module\_games](#acit4420_module_games)
+  - [Table of contents](#table-of-contents)
   - [Features](#features)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Games Included](#games-included)
+  - [Games included](#games-included)
     - [1. Rock, Paper, Scissors](#1-rock-paper-scissors)
     - [2. Guess the Number](#2-guess-the-number)
     - [3. Tic-Tac-Toe](#3-tic-tac-toe)
-  - [Project Structure](#project-structure)
+  - [Project structure](#project-structure)
     - [Key Files:](#key-files)
   - [License](#license)
 ## Features
@@ -45,29 +45,26 @@ This will launch a menu where you can choose between the three available games:
 2. **Guess the Number**
 3. **Tic-Tac-Toe**
 Simply enter the number corresponding to the game you want to play, and follow the on-screen instructions.
-## Games Included
+## Games included
 ### 1. Rock, Paper, Scissors
 A simple implementation of the classic hand game. Choose Rock, Paper, or Scissors, and see if you can beat the computer.
 ### 2. Guess the Number
 The computer randomly selects a number between 1 and 10. Your goal is to guess the number in as few attempts as possible.
 ### 3. Tic-Tac-Toe
 A digital version of the classic two-player game. Play against the computer and try to get three in a row.
-## Project Structure
+## Project structure
 Here is a brief overview of the project's structure:
 ```
 ACIT_GAME_Module/
 │
 ├── games/
 │   ├── __init__.py
-│   ├── main.py                # Entry point for the game menu
-│   ├── rock_paper_scissor/
-│   │   ├── __init__.py
-│   │   ├── __main__.py
-│   │   └── game_logic.py
+│   ├── rock_paper_scissor.py
 │   ├── guess_the_number.py
 │   └── tic_tac_toe.py
 │
 ├── setup.py                   # Installation script
+├── main.py
 └── README.md                  # Project documentation (this file)
 ```
 ### Key Files:
@@ -77,4 +74,4 @@ ACIT_GAME_Module/
 - **`guess_the_number.py`**: Script for the Guess the Number game.
 - **`tic_tac_toe.py`**: Script for the Tic-Tac-Toe game.
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/shailendrabhandari/project_game/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/shailendrabhandari/ACIT4420_Module_games/blob/main/LICENSE) file for details.
